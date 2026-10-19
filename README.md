@@ -38,11 +38,9 @@ A Figma plugin that gives every project a **primitive system** and manages **the
 ## Development
 
 ```bash
-npm install
-npm run dev        # build in watch mode
-npm test           # core and repository tests (with a Figma test double)
-npm run check      # typecheck + tests + build
-npm run harness    # the UI running in the browser, without Figma
+bun install
+bun run dev        # build in watch mode
+bun test           # core and repository tests (with a Figma test double)
+bun run check      # typecheck + tests + build
+bun run harness    # the UI running in the browser, without Figma
 ```
-
-To try it in Figma (desktop app): **Plugins → Development → Import plugin from manifest…** and pick `manifest.json` after `npm run build`.
