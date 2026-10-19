@@ -11,7 +11,7 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "typecheck": "tsc --noEmit",
-    "check": "npm run typecheck && npm test && npm run build"
+    "check": "bun run typecheck && bun run test && bun run build"
   },
   "dependencies": {
     "preact": "10.24.3"

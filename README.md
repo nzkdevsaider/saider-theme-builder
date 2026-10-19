@@ -40,7 +40,7 @@ A Figma plugin that gives every project a **primitive system** and manages **the
 ```bash
 bun install
 bun run dev        # build in watch mode
-bun test           # core and repository tests (with a Figma test double)
+bun run test       # core and repository tests (with a Figma test double)
 bun run check      # typecheck + tests + build
 bun run harness    # the UI running in the browser, without Figma
 ```
